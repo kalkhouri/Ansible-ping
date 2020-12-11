@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "10.2.142.54",
+  "port": "22",
+  "target": "/var/lib/awx/projects/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "jack",
+  "password": "Abcd123$",
+  "watch": [],
+  "transport": "scp"
+}
