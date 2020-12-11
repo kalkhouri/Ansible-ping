@@ -1,5 +1,0 @@
--
-  name: ping test playbook
-  tasks: ping test task
-- name: ping
-  ping: 
